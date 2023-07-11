@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist/",
+    "noEmit": false
+  },
+  "include": ["./src"],
+  "exclude": ["./src/__tests__", "src/persistence/blob/__tests__"],
+  "references": []
+}

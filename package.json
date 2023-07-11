@@ -1,0 +1,20 @@
+{
+  "name": "blocksuite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@blocksuite/blocks": "^0.6.0",
+    "@blocksuite/editor": "^0.6.0",
+    "@blocksuite/lit": "^0.6.0",
+    "@blocksuite/store": "^0.6.0",
+    "yjs": "^13.5.44"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "vite": "latest"
+  }
+}
