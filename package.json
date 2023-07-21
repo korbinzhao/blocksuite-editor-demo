@@ -2,6 +2,7 @@
   "name": "blocksuite",
   "version": "0.0.0",
   "scripts": {
+    "start": "yarn dev",
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"
@@ -11,9 +12,13 @@
     "@blocksuite/editor": "^0.6.0",
     "@blocksuite/lit": "^0.6.0",
     "@blocksuite/store": "^0.6.0",
+    "@types/react": "^18.2.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "yjs": "^13.5.44"
   },
   "devDependencies": {
+    "@types/react-dom": "^18.2.7",
     "typescript": "^4.7.4",
     "vite": "latest"
   }
